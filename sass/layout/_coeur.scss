@@ -1,0 +1,34 @@
+.coeur {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .fa-solid {
+    position: absolute;
+    font-size: 30px;
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+    color: transparent;
+    z-index: 1;
+    opacity: 0;
+    -webkit-background-clip: text;
+  }
+
+  .fa-regular {
+    color: black;
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    opacity: 1;
+    margin-right: 25px;
+  }
+
+  &:hover {
+    .fa-regular {
+      opacity: 0;
+    }
+
+    .fa-solid {
+      opacity: 1;
+    }
+  }
+}

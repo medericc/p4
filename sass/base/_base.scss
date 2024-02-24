@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    line-height: 1.6;
+  
+}
+
+a{
+    color: initial;
+    text-decoration: none;
+}
+
+.containers {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}

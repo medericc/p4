@@ -1,0 +1,66 @@
+.section-title {
+    margin: 20px 0;
+  }
+  
+  .steps__wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap:20px;
+  }
+  
+  .btn-second {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0px;
+    border-radius: 25px;
+    margin-left: 5px;
+    background: rgb(246, 246, 246);
+  
+    &:hover {
+      
+      color: rgb(147, 86, 220)
+    }
+  
+    &-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 30px;
+      height: 30px;
+      background-color: rgb(147, 86, 220);
+      border-radius: 50%;
+      margin-left: -11px;
+    }
+  
+    &-icon {
+      padding: 0 30px;
+      color: rgb(126, 126, 126);
+    }
+  
+    &-txt {
+      padding: 0 20px;
+    }
+  }
+  
+  .new {
+    z-index: 1;
+    position: absolute;
+    right: 40px;
+    background-color: rgb(153, 226, 208);
+    color: rgb(0, 135, 102);
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  .articles {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  

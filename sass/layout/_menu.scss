@@ -1,0 +1,125 @@
+.title2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px 0px 0px;
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-logo-rest {
+    font-family: "Shrikhand", cursive;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 27.5px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.menus{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.soustitre
+{
+    width: 45px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: #99E2D0 2px solid;
+}
+.cartemenu {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    border-radius: 15px;
+    .cprix{
+        position: relative;
+        margin-right: 10px;
+    }
+    .check{
+        position: absolute;
+        right: -60px;
+        background-color: rgba(153, 226, 208, 1);
+        width: 60px;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 25px 20px;
+        i{
+            color: #fff;
+        }
+    }
+    &:hover{
+        .cprix{
+            animation: slide-price 1s;
+            animation-fill-mode: both;
+        }
+        .check{
+            animation: slide 1s;
+            animation-fill-mode: both;
+        }
+    }
+    
+p,h4 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+}
+
+@keyframes slide{
+    0%{
+        right: -60px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+@keyframes slide-price{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: -60px;
+    }
+}
+
+.cdescription {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cprix {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 {
+    
+        position: relative;
+        z-index: 1;
+        margin-top: -40px;
+        padding-bottom: 40px;
+        background-color: #F6F6F6;
+        border-radius: 40px 40px 0 0;
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+.tout {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

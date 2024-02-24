@@ -1,0 +1,43 @@
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .card {
+        position: relative;
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+
+        &__img {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                -o-object-fit: cover;
+                object-fit: cover;
+                width: 100%;
+                height: 175px;
+                border-radius: 20px 20px 0 0;
+            }
+        }
+
+        &__content {
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 0 0 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__txt {
+            display: block;
+
+            h3, h4 {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

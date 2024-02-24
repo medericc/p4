@@ -1,0 +1,32 @@
+.entrees,
+.plat,
+.dessert {
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.12, .15, 0, 1);
+  animation-fill-mode: forwards; //ou both
+  transform: translateX(20000px); 
+}
+
+@keyframes defil {
+  0% {
+    transform: translateX(20000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.entrees {
+  animation-name: defil;
+  animation-delay: 0s; 
+}
+
+.plat {
+  animation-name: defil;
+  animation-delay: 2s; 
+}
+
+.dessert {
+  animation-name: defil;
+  animation-delay: 4s; 
+}
