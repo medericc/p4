@@ -1,22 +1,31 @@
 .header2 {
     background-color: #ffff;
-    text-align: center;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    .back-link {
-        position: absolute;
-        left: 0;
+    position: relative;
+  
+    .search-icon {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
     }
-
+  
     img {
-        width: 60%;
-        height: auto;
+      width: 60%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
     }
-}
-
-.banneri {
-    width: 100%;
-}
+  
+    .banner {
+      text-align: center;
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+  
